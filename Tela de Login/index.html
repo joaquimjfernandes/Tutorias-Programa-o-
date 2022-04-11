@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src=" https://use.fontawesome.com/b09450dc5c.js " ></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttonsForm">
+            <div class="btnColor"></div>
+            <button id="btnSignin">Sign In</button>
+            <button id="btnSignup">Sign Up</button>
+        </div>
+
+        <form id="signin">
+            <input type="email" placeholder="Email" required />
+            <i class="iEmail"><img src="fontawesome/svgs/regular/envelope.svg" width="20px"></i>
+            <input type="password" placeholder="Password" required />
+            <i class="iPassword"><img src="fontawesome/svgs/solid/lock.svg" width="18px"></i>
+            <div class="divCheck">
+                <input type="checkbox" />
+                <span>Remeber Password</span>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+
+        <form id="signup">
+            <input type="email" placeholder="Email" required>
+            <i class="iEmail"><img src="fontawesome/svgs/regular/envelope.svg" width="20px"></i>
+            <input type="password" placeholder="Password" required>
+            <i class="iPassword"><img src="fontawesome/svgs/solid/lock.svg" width="18px"></i>
+            <input type="password" placeholder="Password" required>
+            <i class="iPassword2"><img src="fontawesome/svgs/solid/lock.svg" width="18px"></i>
+            <div class="divCheck">
+                <input type="checkbox" required />
+                <span>Terms</span>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
